@@ -10,7 +10,7 @@ function peticionGatito() {
         return response.json();
     })
 
-    .then(function(sata) {
+    .then(function(data) {
         console.log(data[0].url);
         imagen.src = data[0].url
     })
